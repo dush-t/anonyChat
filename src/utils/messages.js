@@ -1,0 +1,20 @@
+const generateMessage = (text) => {
+    return {
+        text: text,
+        createdAt: new Date().getTime()
+    }
+}
+
+const generateLocationMessage = (locationURL) => {
+    return {
+        locationURL: locationURL,
+        createdAt: new Date().getTime()
+    }
+}
+
+
+module.exports = {
+    generateMessage,
+    generateLocationMessage
+
+}
