@@ -19,7 +19,9 @@
   },
   "homepage": "https://github.com/dush-t/chat-app#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "bad-words": "^3.0.2",
+    "express": "^4.17.1",
+    "socket.io": "^2.2.0"
   },
   "devDependencies": {
     "nodemon": "^1.19.1"
